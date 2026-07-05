@@ -48,7 +48,7 @@ The platform provides access to:
 
 ---
 
-## Supported Subjects
+## Subjects
 
 - Engineering Technology
 - Science for Technology
