@@ -147,14 +147,16 @@ To add a new resource:
 5. Set sharing permission to **Anyone with the link can view**
 6. Paste the sharing link into the `driveUrl` field
 
-### Supported Resource Types
+### Resource Types
 
-- Past Paper
-- Textbook
-- Teachers' Guide
-- Model Paper
+- Past Papers
+- Textbooks
+- Teachers' Guides
+- Model Papers
+- Provincial Papers
+- Extra Notes
 
-### Supported Subjects
+###  Subjects
 
 - Engineering Technology
 - Science for Technology
