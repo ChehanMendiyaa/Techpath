@@ -2,31 +2,35 @@
 
 ## Purpose
 
-This is the first project of mine as a Undergrafuate Student in University of Ruhuna. It is a static, attractive, mobile-responsive website for Sri Lankan A/L Technology students.
+This is my first project as an undergraduate student at the University of Ruhuna.
 
-The site is intended to share study resources such as:
+I created this website to support a fundraising event called **BAWA** organized by the Faculty of Technology, University of Ruhuna. As part of the event, we printed stickers featuring the BAWA logo, and each sticker included a QR code. When users scan the QR code, they are redirected to this website, where students can search for and download educational resources.
 
-- Past papers
-- Textbooks
-- Teachers' guides
-- Model papers
-- Extra Notes
-- Province Papers
+To minimize hosting and maintenance costs, I developed the platform as a static website. All resources are managed through JavaScript and Google Drive links.
 
-Resources are managed through Google Drive links 
+The website is an attractive, mobile-responsive platform designed for Sri Lankan G.C.E. Advanced Level (A/L) Technology students.
+
+The site provides access to study resources such as:
+
+* Past Papers
+* Textbooks
+* Teachers' Guides
+* Model Papers
+* Extra Notes
+* Provincial Papers
+
+All resources are organized and delivered through Google Drive links.
 
 ## Current Website Location
 
-Main site:
+**Main Site:**
 
 `techpath.site`
 
-
 ## Subjects Included
 
-- Engineering Technology
-- Science for Technology
-- Information & Communication Technology
-- Bio Systems Technology
-- Agricultural Science
-
+* Engineering Technology
+* Science for Technology
+* Information & Communication Technology (ICT)
+* Bio Systems Technology
+* Agricultural Science
