@@ -212,10 +212,25 @@ University of Ruhuna
 
 ## Acknowledgements
 
-Special thanks to the Faculty of Technology, University of Ruhuna, and the organizers of the **BAWA** fundraising initiative for providing the inspiration and opportunity to develop this project.
+Special thanks to the Faculty of Technology, University of Ruhuna, and the organizers of the BAWA fundraising initiative for providing the inspiration and opportunity to develop this project.
+
+Special thanks to:
+
+- The Faculty of Technology, University of Ruhuna, for providing the inspiration and opportunity to develop this project through the **BAWA Fundraising Initiative**.
+- The Brothers and Sisters in Uni ❤️  who shared educational materials and supported to the resource collection process.
+- All individuals who contributed by finding, organizing, verifying, and sharing past papers, textbooks, teachers' guides, model papers, and other learning resources included in this platform.
+- Everyone who provided feedback, suggestions, and encouragement throughout the development of the project.
+
+Their contributions have helped make TechPath a valuable educational resource for Sri Lankan G.C.E. Advanced Level (A/L) Technology students.
 
 ---
 
 ## License
 
-This project is available for educational purposes. Please credit the author when reusing or modifying the project.
+This project is released under the MIT License.
+
+Feel free to use, modify, and distribute this project with proper attribution.
+
+---
+
+⭐ If you find this project useful, consider giving it a star on GitHub.
