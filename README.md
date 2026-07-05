@@ -22,14 +22,16 @@ All resources are managed through JavaScript and distributed using Google Drive 
 
 ## Features
 
-- Responsive and mobile-friendly design
-- Fast-loading static architecture
-- Search and filtering functionality
-- Subject-wise resource organization
-- Google Drive integration
-- Easy resource management
-- No backend or database required
-- QR code accessibility
+- 📱 Mobile-responsive design
+- ⚡ Fast-loading static architecture
+- 🔍 Resource search and filtering
+- 📚 Subject-wise resource organization
+- ☁️ Google Drive integration
+- 🎓 Designed specifically for A/L Technology students
+- 🌐 Accessible through QR codes
+- 🛠️ Easy resource management
+- 🚀 Deployable on any static hosting platform
+
 
 ---
 
@@ -101,13 +103,13 @@ The platform provides access to:
 Clone the repository:
 
 ```bash
-git clone https://github.com/<your-username>/<repository-name>.git
+git clone https://github.com/ChehanMendiyaa/Techpath.git
 ```
 
 Navigate to the project folder:
 
 ```bash
-cd <repository-name>
+cd Techpath
 ```
 
 Open `index.html` in your preferred web browser.
@@ -202,7 +204,7 @@ No backend services, databases, or server-side processing are required.
 
 **Chehan Mendiya**
 
-Undergraduate  
+BICT Undergraduate  
 Faculty of Technology  
 University of Ruhuna
 
