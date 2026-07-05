@@ -2,7 +2,7 @@
 
 ## Purpose
 
-This is the first project in this workspace. It is a static, attractive, mobile-responsive website for Sri Lankan A/L Technology students.
+This is the first project of mine as a Undergrafuate Student in University of Ruhuna. It is a static, attractive, mobile-responsive website for Sri Lankan A/L Technology students.
 
 The site is intended to share study resources such as:
 
@@ -10,22 +10,17 @@ The site is intended to share study resources such as:
 - Textbooks
 - Teachers' guides
 - Model papers
+- Extra Notes
+- Province Papers
 
-Resources are managed through Google Drive links in `outputs/tech-study-hub/resources.js`.
+Resources are managed through Google Drive links 
 
 ## Current Website Location
 
 Main site:
 
-`outputs/tech-study-hub/index.html`
+`techpath.site`
 
-Main files:
-
-- `outputs/tech-study-hub/index.html`
-- `outputs/tech-study-hub/styles.css`
-- `outputs/tech-study-hub/app.js`
-- `outputs/tech-study-hub/resources.js`
-- `outputs/tech-study-hub/README.md`
 
 ## Subjects Included
 
