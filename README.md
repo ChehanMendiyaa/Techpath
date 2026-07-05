@@ -1,36 +1,219 @@
-# Project 1: TechPath A/L Technology Resource Hub
+# TechPath – A/L Technology Resource Hub
 
-## Purpose
+A web-based educational resource platform designed for Sri Lankan G.C.E. Advanced Level (A/L) Technology students. The platform provides easy access to study materials, allowing students to search, browse, and download academic resources from a centralized location.
 
-This is my first project as an undergraduate student at the University of Ruhuna.
+## Overview
 
-I created this website to support a fundraising event called **BAWA** organized by the Faculty of Technology, University of Ruhuna. As part of the event, we printed stickers featuring the BAWA logo, and each sticker included a QR code. When users scan the QR code, they are redirected to this website, where students can search for and download educational resources.
+TechPath was developed as part of the **BAWA** fundraising initiative organized by the Faculty of Technology, University of Ruhuna.
 
-To minimize hosting and maintenance costs, I developed the platform as a static website. All resources are managed through JavaScript and Google Drive links.
+As part of the event, QR codes were printed on BAWA promotional stickers. When scanned, users are directed to this platform, where they can access a collection of educational resources relevant to A/L Technology subjects.
 
-The website is an attractive, mobile-responsive platform designed for Sri Lankan G.C.E. Advanced Level (A/L) Technology students.
+The project was built as a static website to ensure:
 
-The site provides access to study resources such as:
+- Low hosting costs
+- Fast performance
+- Easy maintenance
+- High accessibility
+- No server-side infrastructure requirements
 
-* Past Papers
-* Textbooks
-* Teachers' Guides
-* Model Papers
-* Extra Notes
-* Provincial Papers
+All resources are managed through JavaScript and distributed using Google Drive links.
 
-All resources are organized and delivered through Google Drive links.
+---
 
-## Current Website Location
+## Features
 
-**Main Site:**
+- Responsive and mobile-friendly design
+- Fast-loading static architecture
+- Search and filtering functionality
+- Subject-wise resource organization
+- Google Drive integration
+- Easy resource management
+- No backend or database required
+- QR code accessibility
 
-`techpath.site`
+---
 
-## Subjects Included
+## Available Resources
 
-* Engineering Technology
-* Science for Technology
-* Information & Communication Technology (ICT)
-* Bio Systems Technology
-* Agricultural Science
+The platform provides access to:
+
+- Past Papers
+- Textbooks
+- Teachers' Guides
+- Model Papers
+- Provincial Papers
+- Extra Notes
+
+---
+
+## Supported Subjects
+
+- Engineering Technology
+- Science for Technology
+- Information & Communication Technology (ICT)
+- Bio Systems Technology
+- Agricultural Science
+
+---
+
+## Live Website
+
+🌐 **Website:** https://techpath.site
+
+---
+
+## Technology Stack
+
+- HTML5
+- CSS3
+- JavaScript (Vanilla JS)
+- Google Drive (Resource Storage)
+- GitHub Pages (Hosting)
+- Cloudflare DNS
+
+---
+
+## Project Structure
+
+```text
+/
+├── CNAME
+├── README.md
+├── PROJECT_1_NOTES.md
+├── index.html
+├── resources.html
+├── subject.html
+├── university.html
+├── app.js
+├── library.js
+├── resources.js
+├── subject.js
+├── university.js
+└── styles.css
+```
+
+---
+
+## Getting Started
+
+### Run Locally
+
+Clone the repository:
+
+```bash
+git clone https://github.com/<your-username>/<repository-name>.git
+```
+
+Navigate to the project folder:
+
+```bash
+cd <repository-name>
+```
+
+Open `index.html` in your preferred web browser.
+
+---
+
+## Subject Pages
+
+Subject-specific resources are displayed through `subject.html`.
+
+Example:
+
+```text
+subject.html?subject=Bio%20Systems%20Technology
+```
+
+---
+
+## Managing Resources
+
+All educational resources are stored within `resources.js`.
+
+To add a new resource:
+
+1. Open `resources.js`
+2. Copy an existing resource object
+3. Update the following fields:
+   - Title
+   - Type
+   - Subject
+   - Year
+   - Medium
+   - Drive URL
+4. Upload the file to Google Drive
+5. Set sharing permission to **Anyone with the link can view**
+6. Paste the sharing link into the `driveUrl` field
+
+### Supported Resource Types
+
+- Past Paper
+- Textbook
+- Teachers' Guide
+- Model Paper
+
+### Supported Subjects
+
+- Engineering Technology
+- Science for Technology
+- Information & Communication Technology
+- Bio Systems Technology
+- Agricultural Science
+
+---
+
+## Deployment
+
+This project can be deployed on any static hosting platform, including:
+
+- GitHub Pages
+- Netlify
+- Cloudflare Pages
+- Vercel
+
+No backend services, databases, or server-side processing are required.
+
+---
+
+## Project Highlights
+
+- Developed as a fully static web application
+- Designed specifically for Sri Lankan A/L Technology students
+- Mobile-first responsive design
+- QR-code-based resource distribution
+- Cost-effective architecture with zero backend expenses
+- Easy content management through JavaScript configuration
+- Fast and lightweight user experience
+
+---
+
+## Future Improvements
+
+- Advanced search functionality
+- Resource request system
+- Resource popularity tracking
+- Dark mode support
+- Multi-language interface
+- Offline resource catalog
+
+---
+
+## Author
+
+**Chehan Mendiya**
+
+Undergraduate  
+Faculty of Technology  
+University of Ruhuna
+
+---
+
+## Acknowledgements
+
+Special thanks to the Faculty of Technology, University of Ruhuna, and the organizers of the **BAWA** fundraising initiative for providing the inspiration and opportunity to develop this project.
+
+---
+
+## License
+
+This project is available for educational purposes. Please credit the author when reusing or modifying the project.
