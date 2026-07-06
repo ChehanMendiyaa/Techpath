@@ -64,13 +64,6 @@ const observer = new IntersectionObserver(entries => entries.forEach(entry => {
 }), { threshold: 0.12 });
 document.querySelectorAll(".reveal").forEach(element => observer.observe(element));
 
-document.querySelector("#year").textContent = new Date().getFullYear();
-const initialType = new URLSearchParams(window.location.search).get("type");
-if (allowedTypes.includes(initialType)) {
-  setResourceType(initialType);
-} else {
-  renderResources();
-}
 
 const progressBar = document.querySelector(".scroll-progress");
 const cursorGlow = document.querySelector(".cursor-glow");
