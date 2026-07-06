@@ -21,7 +21,20 @@ const subjectCode = subject => subjectCodes[subject] || "TECH";
 function renderResources() {
   const sliced = resources.slice(0, 9);
 
-  
+  grid.innerHTML = sliced.map((item, index) => `
+    <article class="resource-card" style="--delay:${index * 45}ms">
+      <div class="resource-card-top">
+        <span class="resource-type ${typeClass[item.type]}">${item.type}</span>
+        <span class="subject-code">${subjectCode(item.subject)}</span>
+      </div>
+      <div class="file-art ${typeClass[item.type]}"><span>${item.year || ''}</span><b>${subjectCode(item.subject)}</b><i></i></div>
+      <div class="resource-body">
+        <p>${item.subject}</p><h3>${item.title}</h3>
+        <div class="resource-meta"><span>${item.medium}</span><span>PDF / Drive</span></div>
+      </div>
+      <a class="drive-link" href="${item.driveUrl}" target="_blank" rel="noopener noreferrer">Open in Google Drive <span>&#8599;</span></a>
+    </article>`).join("");
+}
 
 renderResources();
 
@@ -51,6 +64,13 @@ const observer = new IntersectionObserver(entries => entries.forEach(entry => {
 }), { threshold: 0.12 });
 document.querySelectorAll(".reveal").forEach(element => observer.observe(element));
 
+document.querySelector("#year").textContent = new Date().getFullYear();
+const initialType = new URLSearchParams(window.location.search).get("type");
+if (allowedTypes.includes(initialType)) {
+  setResourceType(initialType);
+} else {
+  renderResources();
+}
 
 const progressBar = document.querySelector(".scroll-progress");
 const cursorGlow = document.querySelector(".cursor-glow");
